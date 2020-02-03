@@ -6,7 +6,7 @@
 </head>
 <body>
   <header class="header">
-    <a href="#">
+    <a>
       <img class="logo" src="/images/logo.svg" alt="logo">
     </a>
     <nav class="header-nav header-nav_link">
@@ -15,7 +15,7 @@
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#">Catalog</a>
+          <a href="/catalog.html">Catalog</a>
         </li>
         <li>
           <a href="#">About Us</a>
@@ -23,7 +23,7 @@
       </ul>
       <ul>
         <li>
-          <img class="header-search" src="/images/search-icon.svg" alt="search">
+          <a href="#"><img class="header-search" src="/images/search-icon.svg" alt="search"></a>
         </li>
         <li>
           <a href="#">Contact  Us</a>
@@ -209,7 +209,10 @@
             </li>
         </ul>
         <h4 class="footer-title">Connect</h4>
-        <!-- Здесь будет форма-->
+        <form action="https://form-data-dl.herokuapp.com/api/messages" method="post">
+          <input class="form-input" type="email" name="email" id="form-input" placeholder="Email">
+          <button type="submit" class="button button_black">Join</button>
+        </form>
         <ul class="social">
           <li class="social-list">
             <a href="#">
@@ -242,9 +245,7 @@
         <li class="star-icon"></li>
       </ul>
       <p class="footer-text">Copyright © 2018 Dlk • Design Life Kids</p>
-      <a href="#">
-        <h4 class="design-title">Web Design — Direct Line Development</h4>
-      </a>
+      <a href="#" class="design-title">Web Design — Direct Line Development</a>
     </footer>
-</body>
+  </body>
 </html>
