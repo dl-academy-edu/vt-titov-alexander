@@ -31,6 +31,7 @@
       </ul>
     </nav>
   </header>
+  <main>
   <h2 class="title-h2">Toy for kids</h2>
   <ul class="breadcrumbs">
     <li class="breadcrumbs-list">
@@ -42,17 +43,86 @@
     <li class="breadcrumbs-list">Toys</li>
   </ul>
   <section>
-    <form action="https://form-data-dl.herokuapp.com/api/messages" method="get">
+    <h1 class="hidden">Hidden</h1>
+    <form action="https://form-data-dl.herokuapp.com/api/messages" method="GET">
+      <fieldset class="fieldset-cost">
+        <legend class="fieldset-title">Cost</legend>
+        <input type="range" name="cost" id="form-range" min="0" max="500">
+        <span class="cost-min">0</span>
+        <span class="cost-max">500</span>
+      </fieldset>
+      <fieldset class="fieldset-cost">
+        <legend class="fieldset-title">Color</legend>
+        <label><input type="checkbox" name="color" value="Black" class="sort-checkbox" checked> Black</label>
+        <label><input type="checkbox" name="color" value="Blue" class="sort-checkbox"> Blue</label>
+        <label><input type="checkbox" name="color" value="Green" class="sort-checkbox"> Green</label>
+        <label><input type="checkbox" name="color" value="White" class="sort-checkbox"> White</label>
+        </fieldset>
+        <fieldset class="fieldset-cost">
+          <legend class="fieldset-title">Delivery</legend>
+          <label><input type="radio" name="delivery" value="Free" class="sort-radio"> Free shipping</label>
+          <label><input type="radio" name="delivery" value="Fast" class="sort-radio" checked> Fast shipping</label>
+        </fieldset>
+        <fieldset class="fieldset-cost">
+          <legend class="fieldset-title">Amount</legend>
+          <label><input type="radio" name="amount" value="0-5" class="amount-radio amount-checked" checked>0-5</label>
+          <label><input type="radio" name="amount" value="10-20" class="amount-radio amount-checked" >10-20</label>
+          <label><input type="radio" name="amount" value="20-50" class="amount-radio amount-checked" >20-50</label>
+        </fieldset>
+          <button type="submit" class="button button_black">Apply</button>
     </form>
   </section>
-
-
-
-
-
-
-
-    
+  <section>
+    <h2 class="hidden">Hidden</h2>
+    <ul class="sort">
+      <li class="sort-list">
+        <a href="#">
+          <img class="sort-img" src="/images/sharky.png" alt="SHARKY BEAN BAG CHAIR COVER">
+          <p class="sort-text">SHARKY BEAN BAG CHAIR COVER</p>
+          <span class="sort-price">$60.00 USD</span>
+        </a>
+      </li>
+      <li class="sort-list">
+        <a href="#">
+        <img class="sort-img" src="/images/brass.png" alt="BRASS DECO FRAMES">
+        <p class="sort-text">BRASS DECO FRAMES</p>
+        <span class="sort-price" >$66.00 USD</span>
+      </a>
+    </li>
+      <li class="sort-list"><a href="#">
+        <img class="sort-img" src="/images/cibo.png" alt="CIBO FULL APRON">
+        <p class="sort-text">CIBO FULL APRON</p>
+        <span class="sort-price" >$60.00 USD</span>
+      </a>
+    </li>
+      <li class="sort-list"><a href="#">
+        <img class="sort-img" src="/images/gumball-machine.png" alt="GATCHA GATCHA GUMBALL MACHINE">
+        <p class="sort-text">GATCHA GATCHA GUMBALL MACHINE</p>
+        <span class="sort-price" >$$56.00 USD</span>
+      </a>
+    </li>
+      <li class="sort-list"><a href="#">
+        <img class="sort-img" src="/images/candle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
+        <p class="sort-text">CHRISTMAS ADVENT SCENTED CANDLE</p>
+        <span class="sort-price" >$29.00 USD</span>
+      </a>
+    </li>
+      <li class="sort-list"><a href="#">
+        <img class="sort-img" src="/images/tangle.png" alt="TANGLE SPINNING TEA LIGHT">
+        <p class="sort-text">TANGLE SPINNING TEA LIGHT</p>
+        <span class="sort-price" >$56.00 USD</span>
+      </a>
+    </li>
+    </ul>
+  </section>
+  <h2 class="hidden">Hidden</h2>
+  <ul class="toys-slider">
+    <li class="slider-num action-num" >1</li>
+    <li class="slider-num action-num">2</li>
+    <li class="slider-num action-num">3</li>
+    <li class="slider-num action-num">4</li>
+  </ul>
+  </main>
   <footer class="footer">
     <div class="footer-nav">
       <h4 class="footer-title">Navigation</h4>
@@ -125,18 +195,18 @@
         </li>
       </ul>
     </div>
-    <p class="footer-text">Company Rating</p>
-    <ul class="star-list">
-      <li class="star-icon"></li>
-      <li class="star-icon"></li>
-      <li class="star-icon"></li>
-      <li class="star-icon"></li>
-      <li class="star-icon"></li>
-    </ul>
-    <p class="footer-text">Copyright © 2018 Dlk • Design Life Kids</p>
-    <a href="#">
-      <h4 class="design-title">Web Design — Direct Line Development</h4>
-    </a>
-  </footer>
-</body>
+      <p class="footer-text">Company Rating</p>
+      <ul class="star-list">
+        <li class="star-icon"></li>
+        <li class="star-icon"></li>
+        <li class="star-icon"></li>
+        <li class="star-icon"></li>
+        <li class="star-icon"></li>
+      </ul>
+      <p class="footer-text">Copyright © 2018 Dlk • Design Life Kids</p>
+      <a href="#">
+        <h4 class="design-title">Web Design — Direct Line Development</h4>
+      </a>
+    </footer>
+  </body>
 </html>
