@@ -247,5 +247,18 @@
       <p class="footer-text">Copyright © 2018 Dlk • Design Life Kids</p>
       <a href="#" class="design-title">Web Design — Direct Line Development</a>
     </footer>
+    <form class="modal-window" action="https://form-data-dl.herokuapp.com/api/messages" method="post">
+      <label class="form-label" for="form-name">Name</label>
+      <input class="form-input" type="text" id="form-name" name="name">
+      <label class="form-label" for="form-phone">Phone</label>
+      <input class="form-input" type="tel" id="form-phone" name="phone">
+      <label class="form-label" for="form-email">Email</label>
+      <input class="form-input" type="email" id="form-email" name="email">
+      <label class="form-label" for="form-message">Message</label>
+      <textarea class="form-textarea" name="message" id="form-message" ></textarea>
+      <input class="form-checkbox" type="checkbox" name="accept">By clicking on the button, you consent to the processing of your personal data
+      <button class="form-submit" type="submit">Submit</button>
+      <button class="form-close" type="button">x</button>
+    </form>
   </body>
 </html>
