@@ -1,18 +1,18 @@
-.breadcrumbs-list{
+.breadcrumbs-list {
   font-family: "Crimson Text", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 20px;
   line-height: 25px;
-  color: #1E0606;
+  color: #1e0606;
 }
 
-.breadcrumbs-list_activ{
+.breadcrumbs-list_activ {
   opacity: 0.5;
 }
 
-.blog-date{
-  font-family: 'Roboto', sans-serif;
+.blog-date {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -20,20 +20,20 @@
   color: #818181;
 }
 
-.blog-title{
+.blog-title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
-  color: #1E0606;
+  color: #1e0606;
 }
 
-.blog-text{
+.blog-text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
-  color: #1E0606;
+  color: #1e0606;
 }
