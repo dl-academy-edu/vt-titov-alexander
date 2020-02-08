@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 
@@ -21,84 +21,84 @@ img {
   max-width: 100%;
 }
 
-.list-point-none{
-  list-style-type: none; 
+.list-point-none {
+  list-style-type: none;
 }
 
-.button{
-  font-family: 'Open Sans', sans-serif;
+.button {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #000000;
 }
 
 /* header */
 
-.header-link{
-  font-family: 'Open Sans', sans-serif;
+.header-link {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
-  color: #1E0606;;
+  color: #1e0606;
 }
 
-.header-link_bolt{
+.header-link_bolt {
   font-weight: bold;
 }
 
 /* title */
 
-.title-h2{
-  font-family: 'Montserrat', sans-serif;
+.title-h2 {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
   text-transform: uppercase;
-  color: #1E0606;
+  color: #1e0606;
 }
 
 /* text */
 
-.text-info{
-  font-family: 'Open Sans', sans-serif;
+.text-info {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #1E0606;
+  color: #1e0606;
 }
 
 /* footer */
 
-.footer{
+.footer {
   background: #434343;
 }
 
-.footer-title{
-  font-family: 'Open Sans', sans-serif;
+.footer-title {
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 22px;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
-.footer-text{
-  font-family: 'Open Sans', sans-serif;
+.footer-text {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.design-title{
-  color: #A2A2A2;
+.design-title {
+  color: #a2a2a2;
 }
