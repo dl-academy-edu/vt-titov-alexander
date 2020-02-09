@@ -25,6 +25,19 @@ img {
   list-style-type: none;
 }
 
+.breadcrumbs-list {
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.breadcrumbs-list_activ {
+  opacity: 0.5;
+}
+
 .button {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -54,12 +67,22 @@ img {
 
 /* title */
 
-.title-h2 {
+.title-h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 38px;
   line-height: 46px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.title-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
   text-transform: uppercase;
   color: #1e0606;
 }

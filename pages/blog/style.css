@@ -1,16 +1,3 @@
-.breadcrumbs-list {
-  font-family: "Crimson Text", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 25px;
-  color: #1e0606;
-}
-
-.breadcrumbs-list_activ {
-  opacity: 0.5;
-}
-
 .blog-date {
   font-family: "Roboto", sans-serif;
   font-style: normal;
