@@ -1,0 +1,172 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.list-point-none {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.breadcrumbs-list {
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.breadcrumbs-list_activ {
+  opacity: 0.5;
+}
+
+.button {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  margin: 50px auto 40px;
+  max-width: 1177px;
+  display: flex;
+}
+
+.logo{
+  width: 100px;
+  max-width: 100px;
+  height: 52px;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-links {
+  display: flex;
+  width: 210px;
+  height: 20px;
+  padding: 0px;
+  margin-left: 60px;
+  justify-content: space-between;
+}
+
+.list-item {
+ 
+}
+
+.header-link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.header-link_bolt {
+  font-weight: bold;
+}
+
+.list-contact{
+  display: flex;
+  width: 136px;
+  justify-content: space-between;
+
+}
+
+/* title */
+
+.title-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.title-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+/* text */
+
+.text-info {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e0606;
+}
+
+/* footer */
+
+.footer {
+  background: #434343;
+}
+
+.footer-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  color: #aaaaaa;
+}
+
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.design-title {
+  color: #a2a2a2;
+}
